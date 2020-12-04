@@ -2,7 +2,7 @@ name: pull Tennessee district and school-level COVID data
 
 on:
   schedule:
-    - cron: "* 13 * * *" #runs at 12:00 UTC / 8:00 EDT everyday
+    - cron: "0 13 * * *" #runs at 12:00 UTC / 8:00 EDT everyday
 
 jobs:
   build:
